@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  color: #191c1e;
+  background: #f7f9fb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f7f9fb;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
