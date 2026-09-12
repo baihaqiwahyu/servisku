@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import CekMotor from "./pages/CekMotor";
 import DaftarMotor from "./pages/DaftarMotor";
+import DetailMotor from "./pages/DetailMotor";
 import Tentang from "./pages/Tentang";
 
 function App() {
@@ -17,6 +18,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/cek-motor" element={<CekMotor />} />
           <Route path="/daftar-motor" element={<DaftarMotor />} />
+
+          <Route
+            path="/motor/:slug"
+            element={<DetailMotor />}
+          />
+
           <Route path="/tentang" element={<Tentang />} />
         </Routes>
       </main>
